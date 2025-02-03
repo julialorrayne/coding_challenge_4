@@ -52,3 +52,9 @@ products = ["IPhone", "MacBook", "Apple Watch"]; //Declared an array products wi
 for (let i of products) {
     console.log(`Name of product: ${i}.`); //Logged each product name to the console 
 };//Used a for...of loop to display each product.
+
+//Task 7: forEach() Method
+orders = [130,131,132]; //Declared an array orders with three order IDs.
+orders.forEach((id) => {
+    console.log(`This is your id order number: ${id}.`)
+}) //Used the forEach() method to log each order ID to the console.
