@@ -27,3 +27,10 @@ while (stock>0) {
     stock--;   
 }; //Used a while loop to decrease stock until it reaches zero.
 
+
+//Task 4: Do...While Loop
+let responses = 0; //Declared a variable responses with an initial value of zero.
+do{
+    console.log(`User response:${responses}`);
+    responses ++; //Logged each response count to the console
+} while (responses <4); //Used a do...while loop to collect responses, until it reaches 3.
