@@ -58,3 +58,13 @@ orders = [130,131,132]; //Declared an array orders with three order IDs.
 orders.forEach((id) => {
     console.log(`This is your id order number: ${id}.`)
 }) //Used the forEach() method to log each order ID to the console.
+
+//Task 8: Function Declaration
+const calculateTax = function(amount,tax_rate){
+    let result = amount*tax_rate
+    return result
+}; // function calculateTax that takes an amount and tax rate and return calculated tax.
+
+let tax = calculateTax(1000,0.1);
+
+console.log(`This is the tax amount: ${tax}`); // //Logged the result to the console.
