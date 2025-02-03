@@ -34,3 +34,14 @@ do{
     console.log(`User response:${responses}`);
     responses ++; //Logged each response count to the console
 } while (responses <4); //Used a do...while loop to collect responses, until it reaches 3.
+
+//Task 5: For...In Loop
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+};//Declared an object employee 
+
+for (let i in employee) {
+    console.log(`${i}: ${employee[i]}`) //Logged each property and value to the console 
+}; //Used a for...in loop to iterate through the object properties.
