@@ -65,7 +65,7 @@ const calculateTax = function(amount,tax_rate){
     return result
 }; // function calculateTax that takes an amount and tax rate and return calculated tax.
 
-let tax = calculateTax(1000,0.1);
+let tax = calculateTax(1000,0.1); //called the functon
 
 console.log(`This is the tax amount: ${tax}`); // //Logged the result to the console.
 
@@ -76,6 +76,16 @@ const applyDiscount = function(price,discount_percent){
 }; //Declared a function expression applyDiscount that takes a price and discount percentage
 //and returns the discounted price. 
 
-let discount = applyDiscount(2000,0.2)
+let discount = applyDiscount(2000,0.2) //called the functon
 
 console.log(`This is the discount amount $${discount}`); //Logged the result to the console.
+
+//Task 10: Arrow Functions
+const calculatedPoints = (purchase_amount) =>{
+    points_earned = purchase_amount/10
+    return points_earned
+};//arrow function calculatePoints that takes a purchase amount and returns 1 point per $10 spent. 
+
+let points = calculatedPoints(100); //called the functon
+
+console.log(`Total points earned: ${points}.`); //Logged the result to the console
