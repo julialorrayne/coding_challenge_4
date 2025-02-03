@@ -45,3 +45,10 @@ let employee = {
 for (let i in employee) {
     console.log(`${i}: ${employee[i]}`) //Logged each property and value to the console 
 }; //Used a for...in loop to iterate through the object properties.
+
+
+//Task 6: For...Of Loop
+products = ["IPhone", "MacBook", "Apple Watch"]; //Declared an array products with three product names
+for (let i of products) {
+    console.log(`Name of product: ${i}.`); //Logged each product name to the console 
+};//Used a for...of loop to display each product.
